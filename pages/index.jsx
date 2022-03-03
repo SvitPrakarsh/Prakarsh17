@@ -10,10 +10,12 @@ import {
 } from "@chakra-ui/react";
 import Eventcards from "../components/Eventcards";
 import HeroBackground from "../components/svgs/hero";
+import Navigation from '../components/Navigation';
 
 export default function Home() {
   return (
     <>
+      <Navigation />
       <Box backgroundColor="#F7F1EC" minHeight="100vh">
         <Container
           as={Flex}
@@ -48,7 +50,7 @@ export default function Home() {
           </VStack>
         </Container>
       </Box>
-      <Divider orientation={"horizontal"} h='5' w='100%' bg={"#D7D6BB"}/>
+      <Divider orientation={"horizontal"} h='5' w='100%' bg={"#D7D6BB"} />
     </>
   );
 }
