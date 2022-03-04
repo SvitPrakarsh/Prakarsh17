@@ -12,7 +12,7 @@ import {
 import Eventcards from "../components/Eventcards";
 import HeroBackground from "../components/svgs/hero";
 import Navigation from '../components/Navigation';
-
+import Footer from "../components/Footer";
 export default function Home() {
     return (
         <>
@@ -51,20 +51,18 @@ export default function Home() {
                     </VStack>
                 </Container>
             </Box>
-            <Divider orientation={"horizontal"} h='5' w='100%' bg={"#D7D6BB"}/>
-               
-               <Flex justifyContent={'center'} bg={'#F7F1EC'}><Heading>Events</Heading></Flex>
-                
-            <Grid gridTemplateColumns={['repeat(1,1fr)','repeat(1,1fr)','repeat(2,1fr)']} bg={'#F7F1EC'}>
-            <Eventcards></Eventcards>
-            <Eventcards></Eventcards>
-            <Eventcards></Eventcards>
-            <Eventcards></Eventcards>
-            <Eventcards></Eventcards>
-            <Eventcards></Eventcards>
-            <Eventcards></Eventcards>
-            <Eventcards></Eventcards>
+            <Divider orientation={"horizontal"} h='5' w='100%' bg={"#D7D6BB"} />
+
+            <Flex justifyContent={'center'} bg={'#F7F1EC'}><Heading>Events</Heading></Flex>
+
+            <Grid gridTemplateColumns={['repeat(1,1fr)', 'repeat(1,1fr)', 'repeat(2,1fr)']} bg={'#F7F1EC'}>
+                <Eventcards></Eventcards>
+                <Eventcards></Eventcards>
+                <Eventcards></Eventcards>
             </Grid>
+            <Divider orientation={"horizontal"} h='1' w='100%' bg={"#D7D6BB"} />
+
+            <Footer></Footer>
         </>
     );
 }

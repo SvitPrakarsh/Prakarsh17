@@ -54,7 +54,7 @@ export default function withAction() {
             {Links.map((link) => (
               <NavLink key={link}>{link}</NavLink>
             ))}
-            <Button bg={'#1B998B'} _focus={{ border: "none" }} _hover={{ bg: '#1B998B' }} rounded={'none'}>Register Now!</Button>
+            <Button bg={'#1B998B'} _focus={{ border: "none" }} _hover={{ bg: '#1B998B' }} rounded={8}>Register Now!</Button>
           </HStack>
           <IconButton
             bg={'none'}
@@ -68,7 +68,6 @@ export default function withAction() {
             }}
           />
         </Flex>
-
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }}>
             <Stack as={'nav'} spacing={4}>
