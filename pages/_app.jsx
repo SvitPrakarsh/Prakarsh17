@@ -1,4 +1,4 @@
-// import "../styles/globals.css";
+import "../styles/globals.css";
 // import "@fontsource/staatliches/400.css";
 // import "@fontsource/syne/400.css";
 // import "@fontsource/syne/600.css";
