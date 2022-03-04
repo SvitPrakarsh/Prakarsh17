@@ -3,28 +3,29 @@ import React from 'react'
 
 function Eventcards() {
     return (
-        <Flex m={[3, 5, 10]} >
+        <Flex m={[3, 10, 15]} >
             <Flex bgColor={'#eebbb9'}
-                borderRadius={12} p={30}
+                borderRadius={12}
+                p={[15, 25, 30]}
                 borderRight={'dashed'}
                 borderColor={'#a8908f'}
                 alignItems='center'>
-                <Img src='favicon.ico' />
+                <Img src='favicon.ico'
+                />
             </Flex>
-            <Box p={25} bgColor={'#eebbb9'} borderRadius={12}
+            <Box p={10} bgColor={'#eebbb9'} borderRadius={12}
             >
-                <Heading
-                    fontSize={[18, 20, 25]}>Event Name</Heading>
-                <Text
-                    fontSize={[10, 20, 25]}
-                >Event Name
-                    Get into somthing somthing somthing sdjfhsd
-                    ajsdlfkjdsfldksfj
-                    22 July 2022</Text>
-                <Text>ovihweihwegw</Text>
-            </Box>
-        </Flex>
+            <Heading
+                fontSize={[18, 20, 25]}>Event Name</Heading>
+            <Text
+                fontSize={[10, 20, 25]}
+            >Event Name:-<br />
+                frugal Entrepenuarar</Text>
+            <Text>
+            </Text>
+        </Box>
+        </Flex >
     )
-}   
+}
 
 export default Eventcards

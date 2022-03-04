@@ -1,9 +1,9 @@
-import "../styles/globals.css";
-import "@fontsource/staatliches/400.css";
-import "@fontsource/syne/400.css";
-import "@fontsource/syne/600.css";
-import "@fontsource/syne/700.css";
-import "@fontsource/syne/800.css";
+// import "../styles/globals.css";
+// import "@fontsource/staatliches/400.css";
+// import "@fontsource/syne/400.css";
+// import "@fontsource/syne/600.css";
+// import "@fontsource/syne/700.css";
+// import "@fontsource/syne/800.css";
 import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
 import theme from "../theme";
 import { Global } from "@emotion/react";
