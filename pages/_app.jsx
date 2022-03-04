@@ -6,6 +6,8 @@ import "../styles/globals.css";
 // import "@fontsource/syne/800.css";
 import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
 import theme from "../theme";
+import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
+
 import { Global } from "@emotion/react";
 
 function MyApp({ Component, pageProps }) {

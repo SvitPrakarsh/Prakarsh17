@@ -43,7 +43,7 @@ export default function withAction() {
 
   return (
     <>
-      <Box px={4} position={'fixed'} w={'full'} style={{ backdropFilter: "blur(10px)" }}>
+      <Box px={4} position={'fixed'} w={'full'} style={{ backdropFilter: "blur(10px)" }} zIndex={9999}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Img src='logo.png' h={'50px'} />
           <HStack
