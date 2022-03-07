@@ -1,8 +1,14 @@
-import { Box, Container, Flex, Heading, Text, VStack } from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, Text, VStack,Grid} from "@chakra-ui/react";
+import { SimpleGrid } from '@chakra-ui/react'
 import HeroPatterns from "../components/HeroPatterns";
+import Eventcards from "../components/Eventcards";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 const Home = () => {
 	return (
+		<>
+		<Navigation></Navigation>
 		<Box minHeight="100vh">
 			<Container
 				as={Flex}
@@ -38,6 +44,15 @@ const Home = () => {
 				</VStack>
 			</Container>
 		</Box>
+		<SimpleGrid columns={[1,2,3]} spacing={5} pr={[10,1,0]}>
+		<Eventcards></Eventcards>
+		<Eventcards></Eventcards>
+		<Eventcards></Eventcards>
+		<Eventcards></Eventcards>
+		<Eventcards></Eventcards>
+		</SimpleGrid>
+		<Footer></Footer>
+		</>
 	);
 };
 
