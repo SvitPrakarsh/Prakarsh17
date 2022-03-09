@@ -1,4 +1,4 @@
-// import { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import {
   Box,
   Flex,
@@ -18,10 +18,11 @@ import {
   Img,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
+import logo from './logo.png'
 
 const Links = ['Events', 'Teams'];
 
-const NavLink = ({ children }) => (
+const NavLink = ({ children }: { children: ReactNode }) => (
   <Link
     px={2}
     py={1}
@@ -45,7 +46,7 @@ export default function withAction() {
     <>
       <Box px={4} position={'fixed'} w={'full'} style={{ backdropFilter: "blur(10px)" }} zIndex={9999}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <Img src='logo.png' h={'50px'} />
+          <Img src={logo} h={'50px'} />
           <HStack
             as={'nav'}
             spacing={8}
