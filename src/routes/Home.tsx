@@ -5,13 +5,19 @@ import {
 	Flex,
 	Heading,
 	Image,
+	SimpleGrid,
 	Text,
 	VStack,
 } from "@chakra-ui/react";
 import HeroPatterns from "../components/HeroPatterns";
+import Eventcards from "../components/Eventcards";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 const Home = () => {
 	return (
+		<>
+		<Navigation></Navigation>
 		<Box minHeight="100vh">
 			<Container
 				as={Flex}
@@ -77,6 +83,15 @@ const Home = () => {
 				</Flex>
 			</Container>
 		</Box>
+		<SimpleGrid columns={[1,2,3]} spacing={5} pr={[10,1,0]}>
+		<Eventcards></Eventcards>
+		<Eventcards></Eventcards>
+		<Eventcards></Eventcards>
+		<Eventcards></Eventcards>
+		<Eventcards></Eventcards>
+		</SimpleGrid>
+		<Footer></Footer>
+		</>
 	);
 };
 
