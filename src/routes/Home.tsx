@@ -1,4 +1,13 @@
-import { Box, Container, Flex, Heading, Text, VStack } from "@chakra-ui/react";
+import {
+	AspectRatio,
+	Box,
+	Container,
+	Flex,
+	Heading,
+	Image,
+	Text,
+	VStack,
+} from "@chakra-ui/react";
 import HeroPatterns from "../components/HeroPatterns";
 
 const Home = () => {
@@ -18,8 +27,14 @@ const Home = () => {
 				</Heading>
 			</Container>
 			<HeroPatterns w="full" h="auto" fill="none" />
-			<Container py="20" justifyContent="flex-start" maxW="container.xl">
-				<VStack alignItems="flex-start" w="50%">
+			<Container
+				as={Flex}
+				py="20"
+				justifyContent="flex-start"
+				maxW="container.xl"
+				flexDir={["column", null, "row"]}
+			>
+				<VStack align="start">
 					<Heading color="#042A2B">
 						About{" "}
 						<Text as="span" color="#D55954">
@@ -36,6 +51,30 @@ const Home = () => {
 						fervour.
 					</Text>
 				</VStack>
+			</Container>
+			<Container maxW="container.xl">
+				<Flex justify="center">
+					<Box
+						bg="red.200"
+						p="4"
+						rounded="md"
+						borderEndColor="red.800"
+						borderEndWidth="2px"
+						borderEndStyle="dashed"
+					>
+						<AspectRatio maxW="600px" ratio={3 / 4}>
+							<Image
+								src="https://picsum.photos/200"
+								h="full"
+								w="auto"
+								objectFit="cover"
+							/>
+						</AspectRatio>
+					</Box>
+					<Box bg="red.200" p="4" rounded="md">
+						adfk
+					</Box>
+				</Flex>
 			</Container>
 		</Box>
 	);
