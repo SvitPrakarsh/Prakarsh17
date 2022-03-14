@@ -5,7 +5,10 @@ import {
 	Flex,
 	Heading,
 	Image,
+<<<<<<< Updated upstream
 	SimpleGrid,
+=======
+>>>>>>> Stashed changes
 	Text,
 	VStack,
 } from "@chakra-ui/react";
@@ -16,6 +19,7 @@ import EventCard from "../components/EventCard";
 
 const Home = () => {
 	return (
+<<<<<<< Updated upstream
 		<>
 			<Navigation></Navigation>
 			<Box minHeight="100vh">
@@ -27,6 +31,36 @@ const Home = () => {
 				>
 					<Heading fontSize="10vw" color="brand.navy">
 						Prakarsh{" "}
+=======
+		<Box minHeight="100vh">
+			<Container
+				as={Flex}
+				justifyContent="center"
+				alignItems="center"
+				py="15%"
+			>
+				<Heading fontSize="10vw" color="brand.navy">
+					Prakarsh{" "}
+				</Heading>
+				<Heading fontSize="10vw" color="brand.red">
+					&rsquo;22
+				</Heading>
+			</Container>
+			<HeroPatterns w="full" h="auto" fill="none" />
+			<Container
+				as={Flex}
+				py="20"
+				justifyContent="flex-start"
+				maxW="container.xl"
+				flexDir={["column", null, "row"]}
+			>
+				<VStack align="start">
+					<Heading color="#042A2B">
+						About{" "}
+						<Text as="span" color="#D55954">
+							Prakarsh
+						</Text>
+>>>>>>> Stashed changes
 					</Heading>
 					<Heading fontSize="10vw" color="brand.red">
 						&rsquo;22
@@ -68,8 +102,36 @@ const Home = () => {
 					/>
 				</SimpleGrid>
 			</Container>
+<<<<<<< Updated upstream
 			<Footer></Footer>
 		</>
+=======
+			<Container maxW="container.xl">
+				<Flex justify="center">
+					<Box
+						bg="red.200"
+						p="4"
+						rounded="md"
+						borderEndColor="red.800"
+						borderEndWidth="2px"
+						borderEndStyle="dashed"
+					>
+						<AspectRatio maxW="600px" ratio={3 / 4}>
+							<Image
+								src="https://picsum.photos/200"
+								h="full"
+								w="auto"
+								objectFit="cover"
+							/>
+						</AspectRatio>
+					</Box>
+					<Box bg="red.200" p="4" rounded="md">
+						adfk
+					</Box>
+				</Flex>
+			</Container>
+		</Box>
+>>>>>>> Stashed changes
 	);
 };
 
