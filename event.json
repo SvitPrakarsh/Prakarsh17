@@ -1,0 +1,147 @@
+[
+    {
+        "id": 1,
+        "category_name": "Workshop",
+        "icon": "",
+        "events": [
+            {
+                "id": 1,
+                "title": "Ethical Hacking - Threat Intelligence",
+                "price": "250",
+                "team_size":"220",     
+                "rounds": [
+                    {
+                        "id": 1,
+                        "title": "What is Cyber Security",
+                        "description" : null
+                    },
+                    {
+                        "id": 2,
+                        "title": "Deep knowledge of DNS and Struture",
+                        "description" : null
+                    },
+                    {
+                        "id": 3,
+                        "title": "Explanation of vulnerability & Exploitation",
+                        "description" : null
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Amazon Web Services - Cloud Development",
+                "price": "170",
+                "team_size":"150",     
+                "rounds": []
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category_name": "Structonics",
+        "icon": "",
+        "events": [
+            {
+                "id": 1,
+                "title": "Virtual Estate",
+                "tag": "It's all about how you invest",
+                "price": "",
+                "team_size":"2-3",     
+                "rounds": [
+                    {
+                        "id": 1,
+                        "title": "Stock Exchange",
+                        "description" : "The Difference is Real"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Mutual Funds",
+                        "description" : "All you need to do is investment"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Country Auctions",
+                        "description" : "Bid it to win it"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Coaster Mania",
+                "tag": "Live it Be it Ride it!",
+                "price": "",
+                "team_size":"3-4",     
+                "rounds": [
+                    {
+                        "id": 1,
+                        "title": "Quiz termination",
+                        "description" : "Road to build your dream coaster"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Building a roller coaster",
+                        "description" : "Compete with the champions"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Battle of Bridges",
+                "tag": "Let water lift you success",
+                "price": "",
+                "team_size":"3-4",     
+                "rounds": [
+                    {
+                        "id": 1,
+                        "title": "Master plan",
+                        "description" : "Thinkin of master plan"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Build a bridge",
+                        "description" : "The being is the bridge"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Pixel it",
+                "tag": "Capturing every perspective",
+                "price": "",
+                "team_size":"1-3",     
+                "rounds": []
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category_name": "Ancillary",
+        "icon": "",
+        "events": [
+            {
+                "id": 1,
+                "title": "Blueprint new era of construction",
+                "tag": "Design the future with pre engineered steel structure",
+                "price": "",
+                "team_size":null,     
+                "rounds": [
+                    {
+                        "id": 1,
+                        "title": "Intro of pre engineering steel building",
+                        "description" : null
+                    },
+                    {
+                        "id": 2,
+                        "title": "Advantage over the traditional constructions",
+                        "description" : null
+                    },
+                    {
+                        "id": 3,
+                        "title": "Construction methods and techniques",
+                        "description" : null
+                    }
+                ]
+            }
+        ]
+    }
+]
