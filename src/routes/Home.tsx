@@ -7,6 +7,7 @@ import {
 	Image,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 	SimpleGrid,
 =======
@@ -15,10 +16,13 @@ import {
 >>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
 =======
 >>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
+=======
+>>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
 	Text,
 	VStack,
 } from "@chakra-ui/react";
 import HeroPatterns from "../components/HeroPatterns";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 import Navigation from "../components/Navigation";
@@ -40,6 +44,11 @@ const Home = () => {
 					<Heading fontSize="10vw" color="brand.navy">
 						Prakarsh{" "}
 =======
+=======
+
+const Home = () => {
+	return (
+>>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
 =======
 
 const Home = () => {
@@ -151,7 +160,10 @@ const Home = () => {
 		</Box>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
 =======
 >>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
 =======
