@@ -5,33 +5,17 @@ import {
 	Flex,
 	Heading,
 	Image,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-	SimpleGrid,
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
-=======
->>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
-=======
->>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
 	Text,
 	VStack,
 } from "@chakra-ui/react";
 import HeroPatterns from "../components/HeroPatterns";
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import EventCard from "../components/EventCard";
 
 const Home = () => {
 	return (
-<<<<<<< Updated upstream
 		<>
 			<Navigation></Navigation>
 			<Box minHeight="100vh">
@@ -44,21 +28,15 @@ const Home = () => {
 					<Heading fontSize="10vw" color="brand.navy">
 						Prakarsh{" "}
 =======
-=======
 
 const Home = () => {
 	return (
->>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
-=======
 
 const Home = () => {
 	return (
->>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
-=======
 
 const Home = () => {
 	return (
->>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
 		<Box minHeight="100vh">
 			<Container
 				as={Flex}
@@ -87,7 +65,6 @@ const Home = () => {
 						<Text as="span" color="#D55954">
 							Prakarsh
 						</Text>
->>>>>>> Stashed changes
 					</Heading>
 					<Heading fontSize="10vw" color="brand.red">
 						&rsquo;22
@@ -129,10 +106,8 @@ const Home = () => {
 					/>
 				</SimpleGrid>
 			</Container>
-<<<<<<< Updated upstream
 			<Footer></Footer>
 		</>
-=======
 			<Container maxW="container.xl">
 				<Flex justify="center">
 					<Box
@@ -158,16 +133,7 @@ const Home = () => {
 				</Flex>
 			</Container>
 		</Box>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
-=======
->>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
-=======
->>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
+
 	);
 };
 

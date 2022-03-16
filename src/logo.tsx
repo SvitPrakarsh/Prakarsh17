@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 export const Logo = () => (
   <svg
     class="logo"
@@ -46,7 +46,6 @@ vertical-align: middle;
     ></path>
   </svg>
 )
-=======
 export const Logo = () => (
   <svg
     class="logo"
@@ -94,4 +93,4 @@ vertical-align: middle;
     ></path>
   </svg>
 )
->>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
+
