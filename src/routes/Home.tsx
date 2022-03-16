@@ -27,13 +27,16 @@ const Home = () => {
 				>
 					<Heading fontSize="10vw" color="brand.navy">
 						Prakarsh{" "}
+
+const Home = () => {
+	return (
+
+const Home = () => {
+	return (
+
+const Home = () => {
+	return (
 =======
-
-const Home = () => {
-	return (
-
-const Home = () => {
-	return (
 
 const Home = () => {
 	return (
