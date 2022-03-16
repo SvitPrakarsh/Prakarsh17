@@ -5,14 +5,18 @@ import {
 	Flex,
 	Heading,
 	Image,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 	SimpleGrid,
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
 	Text,
 	VStack,
 } from "@chakra-ui/react";
 import HeroPatterns from "../components/HeroPatterns";
+<<<<<<< HEAD
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import EventCard from "../components/EventCard";
@@ -32,6 +36,11 @@ const Home = () => {
 					<Heading fontSize="10vw" color="brand.navy">
 						Prakarsh{" "}
 =======
+=======
+
+const Home = () => {
+	return (
+>>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
 		<Box minHeight="100vh">
 			<Container
 				as={Flex}
@@ -131,7 +140,10 @@ const Home = () => {
 				</Flex>
 			</Container>
 		</Box>
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of ec045c5 (Merge branch 'dev' of github.com:SvitPrakarsh/Prakarsh17 into dev)
 	);
 };
 
